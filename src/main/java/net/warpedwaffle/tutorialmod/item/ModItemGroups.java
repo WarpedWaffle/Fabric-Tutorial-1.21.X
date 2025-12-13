@@ -24,6 +24,7 @@ public class ModItemGroups {
             .entries((displayContext, entries) -> {
                 entries.add(ModBlocks.PINK_GARNET_BLOCK);
                 entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
+                entries.add(ModBlocks.MAGIC_BLOCK);
             }).build());
 
     public static void registerItemGroups() {
