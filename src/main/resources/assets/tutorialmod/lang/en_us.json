@@ -2,12 +2,24 @@
   "item.tutorialmod.pink_garnet": "Pink Garnet",
   "item.tutorialmod.raw_pink_garnet": "Raw Pink Garnet",
   "item.tutorialmod.chisel": "Chisel",
+  "item.tutorialmod.cauliflower": "Cauliflower",
+  "item.tutorialmod.starlight_ashes": "Starlight Ashes",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This block is very, very §9MAGICAL§r",
+  "tooltip.tutorialmod.chisel": "Press §e[shift]§r for more info",
+  "tooltip.tutorialmod.chisel.shift_down": "This item chisels blocks into bricks!",
+  "tooltip.tutorialmod.cauliflower.tooltip": "Very healthy. Sometimes.",
+  "tooltip.tutorialmod.dark_magic_block.tooltip.1": "Some people think specifically this one is evil for some reason.",
+  "tooltip.tutorialmod.dark_magic_block.tooltip.2": "But.. maybe.. that's just because they were TOLD to say that.",
+  "tooltip.tutorialmod.dark_magic_block.tooltip.3": "Maybe there actually aren't any differences. At all.",
+
 
   "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
   "block.tutorialmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
   "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
   "block.tutorialmod.deepslate_pink_garnet_ore": "Deepslate Pink Garnet Ore",
   "block.tutorialmod.magic_block": "Magic Block",
+  "block.tutorialmod.dark_magic_block": "Magic Block",
 
 
   "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
