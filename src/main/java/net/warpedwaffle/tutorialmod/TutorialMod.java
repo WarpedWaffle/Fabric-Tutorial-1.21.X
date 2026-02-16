@@ -2,11 +2,13 @@ package net.warpedwaffle.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.warpedwaffle.tutorialmod.block.ModBlocks;
 import net.warpedwaffle.tutorialmod.component.ModDataComponentTypes;
 import net.warpedwaffle.tutorialmod.item.ModItemGroups;
 import net.warpedwaffle.tutorialmod.item.ModItems;
+import net.warpedwaffle.tutorialmod.util.HammerUsageEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,5 +26,7 @@ public class TutorialMod implements ModInitializer {
         ModDataComponentTypes.registerDataComponentTypes();
 
         FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
+
+        PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 	}
 }
