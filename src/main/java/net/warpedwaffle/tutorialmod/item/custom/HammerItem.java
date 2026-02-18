@@ -39,7 +39,7 @@ public class HammerItem extends MiningToolItem {
                         positions.add(new BlockPos(initalBlockPos.getX() + x, initalBlockPos.getY() + y, initalBlockPos.getZ()));
                     }
                 }
-            }
+            } 
 
             if(blockHit.getSide() == Direction.EAST || blockHit.getSide() == Direction.WEST) {
                 for(int x = -range; x <= range; x++) {
