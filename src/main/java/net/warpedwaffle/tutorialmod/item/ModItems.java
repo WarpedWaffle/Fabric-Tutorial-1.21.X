@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 import net.warpedwaffle.tutorialmod.TutorialMod;
 import net.warpedwaffle.tutorialmod.item.custom.ChiselItem;
 import net.warpedwaffle.tutorialmod.item.custom.HammerItem;
+import net.warpedwaffle.tutorialmod.item.custom.ModArmorItem;
 
 import java.util.List;
 
@@ -42,7 +43,7 @@ public class ModItems {
     public static final Item PINK_GARNET_HAMMER = registerItem("pink_garnet_hammer", new HammerItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
             .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 7, -3.4f))));
 
-    public static final Item PINK_GARNET_HELMET = registerItem("pink_garnet_helmet", new ArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+    public static final Item PINK_GARNET_HELMET = registerItem("pink_garnet_helmet", new ModArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
             .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
     public static final Item PINK_GARNET_CHESTPLATE = registerItem("pink_garnet_chestplate", new ArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
             .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
