@@ -15,6 +15,7 @@
   "item.tutorialmod.pink_garnet_leggings": "Pink Garnet Leggings",
   "item.tutorialmod.pink_garnet_boots": "Pink Garnet Boots",
   "item.tutorialmod.pink_garnet_horse_armor": "Pink Garnet Horse Armor",
+  "item.tutorialmod.kaupen_armor_trim_smithing_template": "Kaupen Smithing Template",
 
 
   "tooltip.tutorialmod.magic_block.tooltip": "This block is very, very §9MAGICAL§r",
@@ -45,5 +46,8 @@
 
 
   "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks"
+  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks",
+
+  "trim_material.tutorialmod.pink_garnet": "Pink Garnet Material",
+  "trim_pattern.tutorialmod.kaupen": "Kaupen Armor Pattern"
 }
