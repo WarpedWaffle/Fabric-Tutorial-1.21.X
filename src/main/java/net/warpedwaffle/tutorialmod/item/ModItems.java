@@ -12,6 +12,7 @@ import net.warpedwaffle.tutorialmod.TutorialMod;
 import net.warpedwaffle.tutorialmod.item.custom.ChiselItem;
 import net.warpedwaffle.tutorialmod.item.custom.HammerItem;
 import net.warpedwaffle.tutorialmod.item.custom.ModArmorItem;
+import net.warpedwaffle.tutorialmod.item.custom.PrecisionBowItem;
 
 import java.util.List;
 
@@ -57,6 +58,9 @@ public class ModItems {
             .maxCount(1)));
 
     public static final Item KAUPEN_SMITHING_TEMPLATE = registerItem("kaupen_armor_trim_smithing_template", SmithingTemplateItem.of(Identifier.of(TutorialMod.MOD_ID, "kaupen"), FeatureFlags.VANILLA));
+
+    public static final Item KAUPEN_BOW = registerItem("kaupen_bow", new PrecisionBowItem(new Item.Settings()
+            .maxDamage(500)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
