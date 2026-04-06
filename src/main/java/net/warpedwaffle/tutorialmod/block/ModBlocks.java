@@ -22,6 +22,7 @@ import net.minecraft.world.World;
 import net.warpedwaffle.tutorialmod.TutorialMod;
 import net.warpedwaffle.tutorialmod.block.custom.MagicBlock;
 import net.warpedwaffle.tutorialmod.block.custom.PinkGarnetLampBlock;
+import net.warpedwaffle.tutorialmod.sound.ModSounds;
 
 import java.util.List;
 
@@ -36,7 +37,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6), AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
-            new MagicBlock(2F, AbstractBlock.Settings.create().strength(7f)));
+            new MagicBlock(2F, AbstractBlock.Settings.create().strength(7f).sounds(ModSounds.MAGIC_BLOCK_SOUNDS)));
 
     public static final Block DARK_MAGIC_BLOCK = registerBlock("dark_magic_block",
             new MagicBlock(2f, AbstractBlock.Settings.create().strength(7f)) {
